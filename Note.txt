@@ -1,0 +1,18 @@
+cd = เข้าโฟเดอร์
+ls = ใช้เช็คโฟเดอร์
+ls -al 
+pwd = ไว้ดูว่าอยู่โฟเดอร์ไหน
+
+git clone https://github.com/KHXNMUFFIN/basic_python_68_2.git
+
+git init = ทำให้โฟเดอร์รู้จัก Git
+git remote add origin https://github.com/KHXNMUFFIN/basic_python_68_2.git = ทำให้โฟเดอร์รู้จัก Githup
+
+git config --global user.name "your name"
+git config --global user.email "beer6518@gmail.com"
+
+git add . = การเลือกไฟล์ Save
+git commit -m "Message" = Zip ไฟล์ "เพื่ออะไร"
+git push origin main = ส่งไฟล์ Zip Save Githup
+
+git pull origin main = ดึงข้อมูล Githup ลงมาใช้
